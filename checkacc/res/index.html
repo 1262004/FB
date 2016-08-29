@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi_VN">
+	<head>
+		<meta charset="utf-8" />
+		<title>FB Account Checker</title>
+	</head>
+	<body>
+		<form method="post" action="javascript: void(0);">
+			<p><label for="accs">Accounts</label></p>
+			<textarea id="accs" cols="120" rows="15"></textarea>
+			<p><label for="after">Out after checkpoint</label></p>
+			<input type="number" value="3" id="after" />
+			<p><button value="0">Check !</button></p>
+		</form>
+		<p><label for="live">Live Outputs - Counter: <span id="counter">0</span></label></p>
+		<textarea id="live" cols="120" rows="15"></textarea>
+		<div id="log" style="height: 240px; overflow: hidden;"></div>
+	</body>
+</html>
